@@ -1,0 +1,102 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    font-family: "Hanken Grotesk", sans-serif;
+}
+.mn{
+    background: rgb(255, 255, 255);
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 2px 2px 10px 5px rgb(199, 202, 239);
+}
+.dsp{
+    background: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    border-radius: 15px;
+    text-align: center;
+}
+.dsp h1{
+    color: hsl(221, 100%, 96%);
+    font-size: 15px;
+}
+#grt{
+    margin: 15px;
+    color: white;
+}
+small{
+    font-size: 12px;
+    color: hsl(221, 100%, 96%)
+}
+.smm{
+    background: rgb(255, 255, 255);
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    right: 0;
+    border-radius: 15px;
+    text-align: center;
+}
+#btn{
+    background: hsl(224, 30%, 27%);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 8px 50px;
+    border: 0px;
+    margin: 210px 0 0 0;
+}
+.cle{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 30px 50px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top, hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1))
+}
+.cle p{
+    font-size: 40px;
+    color: aliceblue;
+}
+#smt{
+    margin-top: -30px;
+    font-size: 10px;
+    color: hsl(221, 100%, 96%);
+}
+.smm h1{
+    font-size: 15px;
+}
+@media(max-width: 375px){
+    .dsp{
+        border-radius: 0 0 30px 30px;
+        width: 300px;
+        height: 300px;
+    }
+    .mn{
+        display: block;
+        width: 300px;
+        height: 1000px;
+        position: relative;
+    }
+    .smm{
+        position: absolute;
+        bottom: 0;
+        width: 300px;
+        height: 700px;
+    }
+    #btn{
+        margin: 600px 0 0 0;
+    }
+    .cle{
+        margin: 30px 100px;
+    }
+}
