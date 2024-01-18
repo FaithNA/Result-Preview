@@ -50,7 +50,7 @@ small{
     border-radius: 20px;
     padding: 8px 50px;
     border: 0px;
-    margin: 210px 0 0 0;
+    margin: 20px 0 0 0;
 }
 .cle{
     border-radius: 100%;
@@ -74,10 +74,35 @@ small{
 }
 .smm h1{
     font-size: 15px;
+    text-align: left;
+    margin: 10px;
 }
 .reaction, .memory, .visual, .verbal{
     display: flex;
     flex-direction: row;
+    border-radius: 10px;
+    margin: 10px 15px;
+    max-height: 35px;
+}
+.reaction p, .memory p, .visual p, .verbal p{
+    margin-left: 90px;
+    font-size: 12px;
+}
+.reaction img, .memory img, .visual img, .verbal img{
+    margin-left: 10px;
+    font-size: 12px;
+}
+.reaction{
+    background: hsl(0, 100%, 67%, .1);
+}
+.memory{
+    background: hsl(39, 100%, 56%, .1);
+}
+.verbal{
+    background: hsl(166, 100%, 37%, .1);
+}
+.visual{
+    background: hsl(234, 85%, 45%, .1);
 }
 @media(max-width: 375px){
     .dsp{
@@ -98,7 +123,7 @@ small{
         height: 700px;
     }
     #btn{
-        margin: 600px 0 0 0;
+        margin: 10px 0 0 0;
     }
     .cle{
         margin: 30px 100px;
