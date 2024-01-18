@@ -75,6 +75,10 @@ small{
 .smm h1{
     font-size: 15px;
 }
+.reaction, .memory, .visual, .verbal{
+    display: flex;
+    flex-direction: row;
+}
 @media(max-width: 375px){
     .dsp{
         border-radius: 0 0 30px 30px;
