@@ -128,4 +128,7 @@ small{
     .cle{
         margin: 30px 100px;
     }
+    .reaction p, .memory p, .visual p, .verbal p{
+        margin-left: 190px;
+    }
 }
