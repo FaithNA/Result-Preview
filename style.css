@@ -28,7 +28,7 @@ body{
     font-size: 15px;
 }
 #grt{
-    margin: 15px;
+    margin: 0 15px;
     color: white;
 }
 small{
@@ -113,14 +113,14 @@ small{
     .mn{
         display: block;
         width: 300px;
-        height: 1000px;
+        height: 600px;
         position: relative;
     }
     .smm{
         position: absolute;
         bottom: 0;
         width: 300px;
-        height: 700px;
+        height: 300px;
     }
     #btn{
         margin: 10px 0 0 0;
